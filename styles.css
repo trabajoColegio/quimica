@@ -74,7 +74,7 @@ h1 {
   display: flex;
   flex-direction: column;
   margin-left: 12rem;
-  padding-top: 3rem;
+  padding-top: 6rem;
 }
 
 .introduccion a {
@@ -172,4 +172,26 @@ h1 {
 
 .none {
   display: none;
+}
+
+#proyecto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#proyecto a {
+  font-size: 4rem;
+  color: var(--gray);
+  text-decoration: none;
+  background-color: transparent;
+  border: 0.3rem var(--gray) solid;
+  padding: 2rem 3rem;
+  transition: 0.5s;
+}
+
+#proyecto a:hover {
+  padding: 3rem 4rem;
+  border: whitesmoke solid 0.3rem;
+  color: whitesmoke;
 }
